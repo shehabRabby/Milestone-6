@@ -17,4 +17,4 @@ const studentName = student.name;
 //bracket notation
 const studentOne = student['1'];
 // console.log(studentOne);
-console.log(student.family.mother?.name) // ? -> ei properties jodi object er moddhe na thakel tahole setake dur korte ? use hoy 
+console.log(student.family.mother?.name) // ? -> ei properties jodi object er moddhe na thake tahole setake dur korte ? use hoy  
