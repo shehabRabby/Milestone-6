@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch JSON</title>
+    <style>
+      button {
+        border: 1px solid red;
+        width: auto;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(50, 172, 20);
+        font-size: 10px;
+      }
+
+      #post-container {
+        max-width: 1160px;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+
+      .post-card {
+        border: 1px solid rgb(5, 5, 5);
+        padding: 5px;
+        background-color: darkgrey;
+        box-shadow: 1px 1px 1px 1px rgba(89, 77, 77, 0.434);
+        height: 100%;
+      }
+
+      .post-card p {
+        text-align: justify;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <button onclick="loadData()">Load Data</button> -->
+    <button onclick="loadPost()">Load posts</button>
+
+    <!-- parent container eita -->
+    <div id="post-container">
+        <!--age sample akta banabo ekhane then oi jaygay tamplate e diye dibo -->
+    </div>
+
+    <script src="fetch-json.js"></script>
+  </body>
+</html>
