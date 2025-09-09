@@ -36,4 +36,4 @@ const displayPost = (post) => {
   });
 };
 
-// loadPost()
+// loadPost() click charai show korbe byDefault
